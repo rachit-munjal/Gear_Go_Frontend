@@ -38,7 +38,7 @@ const Navbar = () => {
             <div className="flex justify-between w-full md:w-max">
                 <div className="flex gap-2">
                     <img
-                        src="/download.png"
+                        src="/geargoo.png"
                         width={80}
                         height={80}
                         alt="logo"
