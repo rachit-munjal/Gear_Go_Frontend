@@ -1,0 +1,28 @@
+.swiper-container {
+    padding-bottom: 20px !important;
+}
+
+.swiper-pagination {
+    bottom: 10px; /* Adjust distance from the bottom */
+    display: flex;
+    padding: 24px !important;
+    justify-content: center;
+    z-index: 10; /* Ensure it's above other content */
+}
+
+.swiper-pagination-bullet {
+    width: 16px !important;
+    height: 16px !important;
+    background-color: #c3bdbd !important;
+    opacity: 1;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #1e90ff !important; /* Active dot color */
+    transform: scale(1.2); /* Slightly enlarge the active dot */
+}
+
+.swiper-pagination-bullet:hover {
+    background-color: #ffffff !important; /* Change color on hover */
+}

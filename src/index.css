@@ -1,0 +1,602 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Roboto Font Face */
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto/Roboto-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto/Roboto-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto/Roboto-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto/Roboto-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto/Roboto-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto/Roboto-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto/Roboto-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Poppins */
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-BlackItalic.ttf")
+        format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-ExtraBoldItalic.ttf")
+        format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-ExtraLightItalic.ttf")
+        format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-LightItalic.ttf")
+        format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-MediumItalic.ttf")
+        format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-SemiBoldItalic.ttf")
+        format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/Fonts/Poppins/Poppins-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Montserrat */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-Black.ttf")
+        format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-BlackItalic.ttf")
+        format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-BoldItalic.ttf")
+        format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-ExtraBold.ttf")
+        format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf")
+        format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-ExtraLight.ttf")
+        format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-ExtraLightItalic.ttf")
+        format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-Italic.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-Light.ttf")
+        format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-LightItalic.ttf")
+        format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-Medium.ttf")
+        format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-MediumItalic.ttf")
+        format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-Regular.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-SemiBold.ttf")
+        format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-SemiBoldItalic.ttf")
+        format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Fonts/Montserrat/Montserrat-ThinItalic.ttf")
+        format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+@font-face {
+    font-family: "League";
+    src: url("./assets/Fonts/League_Script/LeagueScript-Regular.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Golos */
+
+@font-face {
+    font-family: "GolosText";
+    src: url("./assets/Fonts/Golos_Text/GolosText-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GolosText";
+    src: url("./assets/Fonts/Golos_Text/GolosText-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GolosText";
+    src: url("./assets/Fonts/Golos_Text/GolosText-ExtraBold.ttf")
+        format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GolosText";
+    src: url("./assets/Fonts/Golos_Text/GolosText-Medium.ttf")
+        format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GolosText";
+    src: url("./assets/Fonts/Golos_Text/GolosText-Regular.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GolosText";
+    src: url("./assets/Fonts/Golos_Text/GolosText-SemiBold.ttf")
+        format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Caveat */
+
+@font-face {
+    font-family: "Caveat";
+    src: url("./assets/Fonts/Caveat/Caveat-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Caveat";
+    src: url("./assets/Fonts/Caveat/Caveat-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Caveat";
+    src: url("./assets/Fonts/Caveat/Caveat-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Caveat";
+    src: url("./assets/Fonts/Caveat/Caveat-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "League";
+    src: url("./assets/Fonts/League_Script/LeagueScript-Regular.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Super Brigade Fonts */
+@font-face {
+    font-family: "SuperBrigade3D";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigade3D-pg3Pa.otf")
+        format("opentype");
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SuperBrigadeChrome";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeChrome-DY0xm.otf")
+        format("opentype");
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SuperBrigadeCondensed";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeCondensed-ARwy2.otf")
+        format("opentype");
+    font-weight: 400;
+    font-style: condensed;
+}
+
+@font-face {
+    font-family: "SuperBrigadeExpanded";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeExpanded-q23Ll.otf")
+        format("opentype");
+    font-weight: 400;
+    font-style: expanded;
+}
+
+@font-face {
+    font-family: "SuperBrigadeGradient";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeGradient-V4qA6.otf")
+        format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SuperBrigadeHalftone";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeHalftone-Jpax7.otf")
+        format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SuperBrigadeItalic";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeItalic-G3Kxm.otf")
+        format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SuperBrigadeLaser";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeLaser-j9V2l.otf")
+        format("opentype");
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SuperBrigadeLeftItalic";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeLeftItalic-zr9Ea.otf")
+        format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SuperBrigadeRotalic";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeRotalic-5yaVL.otf")
+        format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SuperBrigadeSemiCondensed";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeSemiCondensed-6Razo.otf")
+        format("opentype");
+    font-weight: 400;
+    font-style: condensed;
+}
+
+@font-face {
+    font-family: "SuperBrigadeSemiExpanded";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeSemiExpanded-yYja2.otf")
+        format("opentype");
+    font-weight: 400;
+    font-style: expanded;
+}
+
+@font-face {
+    font-family: "SuperBrigadeSpaced";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeSpaced-9MoVZ.otf")
+        format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SuperBrigadeSpacedLeftItalic";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeSpacedLeftalic-lxdaZ.otf")
+        format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SuperBrigadeTitle";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigadeTitle-nALOR.otf")
+        format("opentype");
+    font-weight: 600; /* Semi-Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SuperBrigade";
+    src: url("./assets/Fonts/super-brigade-font/SuperBrigade-xRoW0.otf")
+        format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
