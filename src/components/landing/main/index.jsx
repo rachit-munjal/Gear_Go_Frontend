@@ -32,7 +32,7 @@ const Welcome = () => {
                     }}
                     className="text-5xl md:text-6xl text-center font-bold"
                 >
-                    Expo Wheels
+                    Gear Go
                 </h1>
                 <p
                     style={{

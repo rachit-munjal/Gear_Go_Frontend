@@ -369,7 +369,7 @@ const Purchase = () => {
                                         )}
                                         <tr>
                                             <td className="border p-4 font-semibold">
-                                                Expo Wheels Commission
+                                                Gear Go Commission
                                             </td>
                                             <td className="border p-4">
                                                 <div className="flex flex-col justify-start md:flex-row md:items-center gap-2 md:gap-4 lg:gap-8">

@@ -38,18 +38,11 @@ const Navbar = () => {
             <div className="flex justify-between w-full md:w-max">
                 <div className="flex gap-2">
                     <img
-                        src="/EXPOWHEELS.png"
-                        width={40}
-                        height={40}
+                        src="/download.png"
+                        width={80}
+                        height={80}
                         alt="logo"
                     />
-                    <div
-                        className="italic font-bold"
-                        style={{ fontFamily: "Poppins" }}
-                    >
-                        <h1>EXPO</h1>
-                        <h1>WHEELS</h1>
-                    </div>
                 </div>
                 <div className="flex md:hidden">
                     <button

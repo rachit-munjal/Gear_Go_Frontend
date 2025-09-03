@@ -143,7 +143,7 @@ const Register = () => {
                     className="text-2xl md:text-4xl text-white text-center"
                     style={{ fontFamily: "SuperBrigadeTitle" }}
                 >
-                    Welcome to Expo Wheels
+                    Welcome to Gear Go
                 </div>
                 <div
                     className="text-md md:text-2xl text-white text-center p-4"

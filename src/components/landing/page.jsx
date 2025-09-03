@@ -88,7 +88,7 @@ const Title = () => {
                             }}
                             className="text-5xl md:text-7xl text-center col-span-1 md:col-span-3 uppercase"
                         >
-                            Expo Wheels
+                            Gear Go
                         </h1>
                         <div></div>
                     </div>
